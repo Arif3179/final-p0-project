@@ -36,9 +36,9 @@ body {
 
 .content-index {
     background-position: center;
-    background-color: lightblue;
+    background-image: url("./asset/larutadelsorigens_blue-wallpaper-hd_78121.resized.jpg");
     background-repeat: no-repeat;
-    height: 720px;
+    height: auto;
     width: auto;
     font-size: 12;
     padding-left: 40px;
