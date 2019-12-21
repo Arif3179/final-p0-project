@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>kalkulator Usia</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    <header class="header-index">
+       <h1>Hitung Usiamu Dalam Kalender Hijriyah</h1>
+    </header>
+    <div class="content-index">
+            <p>Kalender hijriyah merupakan penentuan tanggal atau bulan yang berkaitan dengan ibadah dan hari-hari penting lain umat Islam. Kalender ini dinamakan dengan kalender hijriyah karena pada tahun pertama kalender ini terjadi peristiwa hijrah Nabi Muhammad S.A.W dari Makkah ke Madinah, yakni pada tahun 622 Masehi.</p>
+            <p>Kalender hijriyah menggunakan peredaran bulan sebagai acuannya, sedangkan kalender biasa (kalender masehi) menggunakan peredaran matahari.</p>
+            <p>Kalender hijriyah dibangun berdasarkan rata-rata siklus sinodik bulan kalender lunar (qomariyah), memiliki 12 bulan dalam setahun. Dengan menggunakan siklus sinodik bulan, bilangan hari dalam satu tahunnya adalah (12 x 29,53059 hari = 354,36708 hari). Hal inilah yang menjelaskan 1 tahun kalender hijriah lebih pendek 10-12 hari dibanding dengan 1 tahun kalender masehi.</p>
+            <p>Tahukah kamu ? jika kamu menggunakan kalender hijriyah untuk menghitung usiamu, maka usiamu akan bertambah 1 -2 tahun dari umur masehimu? Artinya, jika usiamu 33 tahun dalam hitungan masehi, maka umurmu adalah 34 tahun menurut kalender hijriyah. Jika kamu menghitung ulang tahunmu berdasarkan kalender hijriyah, ulang tahunmu akan maju sekitar 11-12 hari setiap tahun masehi.</p>
+            <p class="center">Ayo hitung usiamu menggunakan kalkulator usia dibawah ini :</p>
+     
+        
+           <p class="center">Tanggal Lahir (mm/dd/yyyy):<input id="dob" type="date" value="1986-09-17"></p>
+           <p class="center"><input class="button-index" type="button" onclick="hitungUmurDalamHijriyah()" value="Hitung Usiamu"></p>
+           <p class="center">Tanggal Hari Ini: <strong id="hariIni"></strong></p> 
+           <p class="center">Usia Berdasar Kalender Masehi: <strong id="kalenderMasehi"></strong></p>
+            <p class="center">Usia Berdasar Kalender Hijriyah: <strong id="kalenderHijriyah"></strong></p>
+            <p class="center">Jumlah Usia dalam hari: <strong id="dalamHari"></strong></p>
+            
+    </div>
+    <script src=hitungUmurDalamHijriyah.js> </script>
+    <footer class="footer-index">
+            <h3>Copyright @2019 Arif Rahmawan </h3>
+                    <p>All Rights Reserved</p>
+    </footer>
+</body>
+</html>
