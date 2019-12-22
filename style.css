@@ -8,11 +8,11 @@ body {
 }
 
 .header-index {
-    background-color:black;
+    background-color:rgb(25, 7, 128);
     height: 70px;
     width: 1280;
     text-align: center;
-    color: white;
+    color:white;
     border: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -21,11 +21,11 @@ body {
 }
 
 .footer-index {
-    background-color:black;
+    background-color:rgb(25, 7, 128);
     height: 70px;
     width: 1280;
     text-align: center;
-    color: white;
+    color:white;
     padding-top: 5px;
     padding-bottom: 7px;
     margin-top: 0px;
